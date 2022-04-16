@@ -23,7 +23,7 @@ email: toscani.nicolo90@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
   Trying to implement real 4.0.
 baseurl: "nicolotoscani.github.io" # the subpath of your site, e.g. /blog
-url: "https://github.com/NicoloToscani/nicolotoscani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://nicolotoscani.github.io/" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ToscaniNicolo
 github_username:  NicoloToscani
 
