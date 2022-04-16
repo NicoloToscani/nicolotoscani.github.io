@@ -21,9 +21,7 @@
 title: Nicolò Toscani
 email: toscani.nicolo90@gmail.com
 description: >- # this means to ignore newlines until "baseurl:"
-  Trying to implement real 4.0.//
-
-  ... these kind of dreams it's Californication
+  Trying to implement real 4.0.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://nicolotoscani.github.io" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username: ToscaniNicolo

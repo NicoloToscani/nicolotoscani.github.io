@@ -4,15 +4,18 @@ title: About
 permalink: /about/
 ---
 
-This is the base Jekyll theme. You can find out more info about customizing your Jekyll theme, as well as basic Jekyll usage documentation at [jekyllrb.com](https://jekyllrb.com/)
+Hi,
 
-You can find the source code for Minima at GitHub:
-[jekyll][jekyll-organization] /
-[minima](https://github.com/jekyll/minima)
+I'm **Nicolò Toscani** from Italy.
 
-You can find the source code for Jekyll at GitHub:
-[jekyll][jekyll-organization] /
-[jekyll](https://github.com/jekyll/jekyll)
+I graduated in Computer Science at University of Parma while working as an Automation Engineer.
 
+I'm currently completing my master's degree in Computer Engineering at University of Parma.
 
-[jekyll-organization]: https://github.com/jekyll
+I currently working as a system integrator for my company NTechSoftware and [Beltek-Industrial Automation](https://www.beltek-ia.it/).
+
+I'm currently working on Industry 4.0 and Industrial Internet of Things (IIoT) to simplify data exchange between OT and IT layers of the manufacturing process.
+
+![My helpful screenshot]({{"img/io.jpeg" | absolute_url}})
+
+![My helpful screenshot]({{"img/io.jpeg" | absolute_url}})
