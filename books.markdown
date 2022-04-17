@@ -21,6 +21,9 @@ Here is a list of some interesting books:
      <li>
     <a href="https://www.amazon.com/Making-Silicon-Valley-Innovation-Technology/dp/0262622114/ref=sr_1_2?qid=1650183562&refinements=p_27%3AChristophe+Lecuyer&s=books&sr=1-2&text=Christophe+Lecuyer">Regional Advantage: Culture and Competition in Silicon Valley and Route 128</a> - Annalee Saxenian
     </li>
+     <li>
+    <a href="https://www.amazon.com/gp/product/0804749140?ie=UTF8&tag=wwwsteveblank-20&linkCode=as2&camp=1789&creative=9325&creativeASIN=0804749140">Fred Terman at Stanford: Building a Discipline, a University, and Silicon Valley</a> - C. Stewart Gillmor
+    </li>
     <li>
     <a href="https://www.amazon.it/Book-Why-Science-Cause-Effect/dp/046509760X">The Book of Why: The New Science of Cause and Effect</a> - Judea Pearl, Dana Mackenzie
     </li>
@@ -88,10 +91,12 @@ Marco Bentivogli, Diodato Pirone
     <li>
     <a href="https://www.amazon.it/gp/product/B088P46Q9P/ref=dbs_a_def_rwt_hsch_vapi_tkin_p1_i2">Toyota Way</a> - Jeffrey K. Liker
     </li>
-
-
-
-
+    <li>
+    <a href="https://www.amazon.it/Lo-Stato-innovatore-Nuova-ediz/dp/8858141245/ref=sr_1_1?adgrpid=55381296209&gclid=CjwKCAjw9e6SBhB2EiwA5myr9rZdx3Z1o97CLmP_iJzlNbB1jhnh8jEr1vZcoaByv6WWF1YYxaxbHxoCX5EQAvD_BwE&hvadid=255183333810&hvdev=c&hvlocphy=20586&hvnetw=g&hvqmt=e&hvrand=13640447484001808700&hvtargid=kwd-411513093497&hydadcr=28427_1717383&keywords=lo+stato+innovatore&qid=1650190365&sr=8-1">Lo Stato innovatore</a> - Mariana Mazzucato
+    </li>
+    <li>
+    <a href="https://www.amazon.com/Passenger-California-10/dp/1787704297/ref=sr_1_1?keywords=the+passenger+california&qid=1650190957&sprefix=the+passenger+cali%2Caps%2C160&sr=8-1">California</a> - The Passenger
+    </li>
 
 </ul>
 <br>
