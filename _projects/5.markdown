@@ -1,0 +1,9 @@
+---
+title: ModbusClient
+description: Modbus TCP/IP client
+---
+[ModbusClient](https://github.com/NicoloToscani/ModbusClient) is a Java application used to test the functionality of the Modbus TCP/IP protocol by exchanging messages with a server. The application uses the functionality of EasyModbusTCP.Java library.
+
+<div class="column">
+   <img src="/img/modbus_client.png" alt="Snow" style="width:100%">
+</div>

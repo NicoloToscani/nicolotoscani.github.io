@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "First steps with NVIDIA Jetson nano"
 date:   2022-04-16 10:12:04 +0200
 categories: jekyll update
 ---

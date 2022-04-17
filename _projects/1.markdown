@@ -1,0 +1,11 @@
+---
+title: edge-sentron 
+description: Application for SIMATIC WinCC Unified to read energy consumption from Siemens SENTRON series over Modbus TCP/IP
+---
+[edge-sentron](https://github.com/NicoloToscani/edge-sentron) allows to acquire main energy measures from SIEMENS Sentron series and visualize them on HMI hiding fieldbus communication details and registers mapping.
+
+<div class="column">
+   <img src="/img/sentron_edge.png" alt="Snow" style="width:80%">
+</div>
+
+

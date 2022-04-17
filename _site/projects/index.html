@@ -43,7 +43,189 @@
   </header>
 
   <div class="post-content">
-    <p>Elenco dei progetti</p>
+    
+<h2> vibration-analysis </h2>
+<p>Vibration Analysis for Predictive Maintenance</p>
+<p><p>Identify and predict failures in rotating machinery using high frequency vibration data to classify its behavior as normal or anomalous and generating alerts when not all system parameters are known.</p>
+
+<p>The goals of the <a href="https://github.com/NicoloToscani/vibration-analysis">vibration-analysis</a> project are:</p>
+<ul>    
+    <li>
+        Compare monitored values with the ISO 10816 standard
+    </li>
+    <li>
+        Create a model using differents machine learning techniques
+    </li>
+</ul>
+
+<div class="column">
+   <img src="/img/dryer_3_down.png" alt="Snow" style="width:100%" />
+</div>
+
+</p>
+
+<h2> edge-sentron </h2>
+<p>Application for SIMATIC WinCC Unified to read energy consumption from Siemens SENTRON series over Modbus TCP/IP</p>
+<p><p><a href="https://github.com/NicoloToscani/edge-sentron">edge-sentron</a> allows to acquire main energy measures from SIEMENS Sentron series and visualize them on HMI hiding fieldbus communication details and registers mapping.</p>
+
+<div class="column">
+   <img src="/img/sentron_edge.png" alt="Snow" style="width:80%" />
+</div>
+
+</p>
+
+<h2> node-red-contrib-siemens-sentron </h2>
+<p>Node-RED nodes to read electrical measures from Siemens SENTRON series over Modbus TCP/IP</p>
+<p><p><a href="https://github.com/NicoloToscani/node-red-contrib-siemens-sentron">node-red-contrib-siemens-sentron</a> is a Plug and Play Node-RED node to simplify main energy data acquisition over Modbus TCP/IP from SIEMENS Sentron series.</p>
+
+<div class="column">
+   <img src="/img/sample_flow_sentron.png" alt="Snow" style="width:100%" />
+  
+</div>
+</p>
+
+<h2> CoAP-factory-monitoring </h2>
+<p>Industrial devices modelling using CoAP protocol and Californium framework</p>
+<p><p><a href="https://github.com/NicoloToscani/CoAP-factory-monitoring">CoAP-factory-monitoring</a> implements a possible <a href="https://en.wikipedia.org/wiki/Industrial_internet_of_things">IIoT</a> scenario for factory data exchange in an <a href="https://en.wikipedia.org/wiki/Fourth_Industrial_Revolution">Industry 4.0</a> perspective with <a href="https://en.wikipedia.org/wiki/Constrained_Application_Protocol">CoAP</a> protocol using <a href="https://www.eclipse.org/californium/">Californium</a> framework.</p>
+
+<div class="column">
+   <img src="/img/Factory_Modelling.png" alt="Snow" style="width:80%" />
+  
+</div>
+</p>
+
+<h2> tiny-gate </h2>
+<p>Do you need to acquire data from your device easily and quickly? Try this template.</p>
+<p><p>With <a href="https://github.com/NicoloToscani/CoAP-factory-monitoring">tiny-gate</a> you can collect data from your device using Modbus TCP/IP protocol and store these data into your database or forward them.
+You can use this template and adapt it with your system to get quick access on your device.</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="mi">1</span><span class="o">-</span><span class="n">configuration</span>
+<span class="mi">2</span><span class="o">-</span><span class="nb">load</span> <span class="n">setting</span>
+
+<span class="p">?</span> <span class="mi">1</span>
+
+
+<span class="o">**********</span> <span class="no">TINY</span><span class="o">-</span><span class="no">GATE</span> <span class="o">**********</span>
+
+
+<span class="o">**</span><span class="no">PLC</span><span class="o">**</span>
+
+
+<span class="no">IPv4</span> <span class="ss">address: </span><span class="mf">192.168</span><span class="o">.</span><span class="mf">100.3</span>
+<span class="no">Modbus</span> <span class="ss">port:  </span><span class="mi">502</span>
+
+
+<span class="o">**</span><span class="no">DATABASE</span><span class="o">**</span>
+
+
+<span class="mi">1</span><span class="p">:</span><span class="n">local</span>
+<span class="mi">2</span><span class="ss">:remote</span>
+
+<span class="p">?</span> <span class="mi">1</span>
+<span class="n">database</span> <span class="ss">name: </span><span class="n">tiny</span><span class="o">-</span><span class="n">store</span><span class="p">.</span><span class="nf">db</span>
+<span class="no">PLC</span> <span class="ss">connection: </span><span class="no">ONLINE</span>
+<span class="no">Successfully</span> <span class="no">Connected</span> <span class="n">to</span> <span class="no">SQLite</span>
+<span class="o">------------------------------------</span>
+<span class="no">Timestamp</span><span class="p">:</span>  <span class="mi">2022</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mi">24</span> <span class="mi">08</span><span class="p">:</span><span class="mi">40</span><span class="p">:</span><span class="mf">48.349342</span>
+<span class="no">Connection</span> <span class="ss">state: </span><span class="no">ONLINE</span>
+<span class="n">value</span> <span class="mi">0</span><span class="p">:</span> <span class="mf">17347.0</span>
+<span class="n">value</span> <span class="mi">1</span><span class="p">:</span> <span class="o">-</span><span class="mf">14417.0</span>
+<span class="n">value</span> <span class="mi">2</span><span class="p">:</span> <span class="o">-</span><span class="mf">64.0</span>
+<span class="n">value</span> <span class="mi">3</span><span class="p">:</span> <span class="mf">0.0</span>
+<span class="n">value</span> <span class="mi">4</span><span class="p">:</span> <span class="o">-</span><span class="mf">64.0</span>
+<span class="n">value</span> <span class="mi">5</span><span class="p">:</span> <span class="mf">0.0</span>
+<span class="n">value</span> <span class="mi">6</span><span class="p">:</span> <span class="o">-</span><span class="mf">64.0</span>
+<span class="n">value</span> <span class="mi">7</span><span class="p">:</span> <span class="mf">0.0</span>
+<span class="n">value</span> <span class="mi">8</span><span class="p">:</span> <span class="o">-</span><span class="mf">64.0</span>
+<span class="n">value</span> <span class="mi">9</span><span class="p">:</span> <span class="mf">0.0</span>
+<span class="ss">timestamp: </span><span class="mi">2022</span><span class="o">-</span><span class="mo">01</span><span class="o">-</span><span class="mi">24</span> <span class="mi">08</span><span class="p">:</span><span class="mi">40</span><span class="p">:</span><span class="mf">48.349342</span>
+<span class="ss">connection_state: </span><span class="mi">1</span>
+<span class="ss">error_code: </span><span class="mi">0</span>
+<span class="no">Execution</span> <span class="ss">time: </span><span class="mf">0.09619808197021484</span> <span class="n">seconds</span> 
+<span class="no">Error</span> <span class="ss">code:  </span><span class="mi">0</span>  <span class="ss">description:   
+</span><span class="o">------------------------------------</span></code></pre></figure>
+
+</p>
+
+<h2> ModbusClient </h2>
+<p>Modbus TCP/IP client</p>
+<p><p><a href="https://github.com/NicoloToscani/ModbusClient">ModbusClient</a> is a Java application used to test the functionality of the Modbus TCP/IP protocol by exchanging messages with a server. The application uses the functionality of EasyModbusTCP.Java library.</p>
+
+<div class="column">
+   <img src="/img/modbus_client.png" alt="Snow" style="width:100%" />
+</div>
+</p>
+
+<h2> node-red-contrib-schneider-powerlogic </h2>
+<p>A Node-RED nodes to read Schneider PowerLogic series over Modbus TCP/IP</p>
+<p><p><a href="https://github.com/NicoloToscani/node-red-contrib-schneider-powerlogic">node-red-contrib-schneider-powerlogic</a> is a Plug and Play Node-RED node to simplify main energy data acquisition over Modbus TCP/IP from Schneider PowerLogic series through Ethernet gateway.</p>
+
+<div class="column">
+   <img src="/img/sample-flow-powerlogic.png" alt="Snow" style="width:100%" />
+  
+</div>
+</p>
+
+<h2> node-red-contrib-vibration-severity </h2>
+<p>Node-RED node for evaluating vibration velocity severity based on ISO10816 guidance</p>
+<p><p><a href="https://github.com/NicoloToscani/node-red-contrib-vibration-severity">node-red-contrib-vibration-severity</a> is used to receive and evaluate RMS Velocity (Vrms) from vibration sensor to identify a problem of unbalaced load, misalignment, loose mounting, soft foot, etc.</p>
+
+<div class="column">
+   <img src="/img/sample-flow-vibration.png" alt="Snow" style="width:100%" />
+  
+</div>
+</p>
+
+<h2> Android Optical Character Recognition </h2>
+<p>Android application for Optical Character Recognition and Optical Character Verification</p>
+<p><p><a href="https://github.com/NicoloToscani/OCR">OCR</a> is an Android application for text detection that uses OpenCV for image enhancement and Google Tesseract Engine for optical character recognition.
+It’s possibile analyze an image loaded from device gallery or through live frames acquired by the camera. In both cases you can enhance the image to improve character recognition using:</p>
+<ul>    
+    <li>
+        Smoothing filters
+    </li>
+    <li>
+        Sharpening filters
+    </li>
+    <li>
+        Gray scale conversion
+    </li>
+    <li>
+        Histogram equalization
+    </li>
+    <li>
+        Rescaling
+    </li>
+    <li>
+        Binarization
+    </li>
+    <li>
+        Morphological transformations
+    </li>
+</ul>
+
+<div class="column">
+   <img src="/img/image_test.png" alt="Snow" style="width:40%" />
+</div>
+</p>
+
+<h2> openfieldbus </h2>
+<p>Industrial Automation communication protocol</p>
+<p><p><a href="https://github.com/NicoloToscani/openfieldbus">openfieldbus</a> contains an analysis of the most common communication protocols used in Industrial Automation:</p>
+<ul>    
+    <li>
+        Modbus TCP/IP
+    </li>
+    <li>
+        EtherNet/IP
+    </li>
+    <li>
+        Ethercat
+    </li>
+</ul>
+
+</p>
+
 
   </div>
 

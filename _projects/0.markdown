@@ -1,0 +1,22 @@
+---
+title: vibration-analysis 
+description: Vibration Analysis for Predictive Maintenance
+---
+
+Identify and predict failures in rotating machinery using high frequency vibration data to classify its behavior as normal or anomalous and generating alerts when not all system parameters are known.
+
+The goals of the [vibration-analysis](https://github.com/NicoloToscani/vibration-analysis) project are:
+<ul>    
+    <li>
+        Compare monitored values with the ISO 10816 standard
+    </li>
+    <li>
+        Create a model using differents machine learning techniques
+    </li>
+</ul>
+
+<div class="column">
+   <img src="/img/dryer_3_down.png" alt="Snow" style="width:100%">
+</div>
+
+

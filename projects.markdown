@@ -4,4 +4,8 @@ title: Projects
 permalink: /projects/
 ---
 
-Elenco dei progetti
+{% for project in site.projects %}
+  <h2> {{ project.title }} </h2>
+  <p>{{ project.description }}</p>
+  <p>{{ project.content }}</p>
+{% endfor %}

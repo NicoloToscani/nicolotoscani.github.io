@@ -1,0 +1,17 @@
+---
+title: openfieldbus
+description: Industrial Automation communication protocol
+---
+[openfieldbus](https://github.com/NicoloToscani/openfieldbus) contains an analysis of the most common communication protocols used in Industrial Automation:
+<ul>    
+    <li>
+        Modbus TCP/IP
+    </li>
+    <li>
+        EtherNet/IP
+    </li>
+    <li>
+        Ethercat
+    </li>
+</ul>
+

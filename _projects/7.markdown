@@ -1,0 +1,10 @@
+---
+title: node-red-contrib-vibration-severity
+description: Node-RED node for evaluating vibration velocity severity based on ISO10816 guidance
+---
+[node-red-contrib-vibration-severity](https://github.com/NicoloToscani/node-red-contrib-vibration-severity) is used to receive and evaluate RMS Velocity (Vrms) from vibration sensor to identify a problem of unbalaced load, misalignment, loose mounting, soft foot, etc.
+
+<div class="column">
+   <img src="/img/sample-flow-vibration.png" alt="Snow" style="width:100%">
+  
+</div>

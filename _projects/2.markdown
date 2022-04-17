@@ -1,0 +1,10 @@
+---
+title: node-red-contrib-siemens-sentron
+description: Node-RED nodes to read electrical measures from Siemens SENTRON series over Modbus TCP/IP
+---
+[node-red-contrib-siemens-sentron](https://github.com/NicoloToscani/node-red-contrib-siemens-sentron) is a Plug and Play Node-RED node to simplify main energy data acquisition over Modbus TCP/IP from SIEMENS Sentron series.
+
+<div class="column">
+   <img src="/img/sample_flow_sentron.png" alt="Snow" style="width:100%">
+  
+</div>

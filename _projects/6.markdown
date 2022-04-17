@@ -1,0 +1,10 @@
+---
+title: node-red-contrib-schneider-powerlogic
+description: A Node-RED nodes to read Schneider PowerLogic series over Modbus TCP/IP
+---
+[node-red-contrib-schneider-powerlogic](https://github.com/NicoloToscani/node-red-contrib-schneider-powerlogic) is a Plug and Play Node-RED node to simplify main energy data acquisition over Modbus TCP/IP from Schneider PowerLogic series through Ethernet gateway.
+
+<div class="column">
+   <img src="/img/sample-flow-powerlogic.png" alt="Snow" style="width:100%">
+  
+</div>
